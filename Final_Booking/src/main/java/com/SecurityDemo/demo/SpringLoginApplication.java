@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringLoginApplication {
 
 	public static void main(String[] args) {
+		System.out.println("hello");
 		SpringApplication.run(SpringLoginApplication.class, args);
 	}
 
